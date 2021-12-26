@@ -1,4 +1,4 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Voltium Ce
+# <img src="public/icons/icon_48.png" width="45" align="left"> Voltium
 
 My Chrome Extension
 

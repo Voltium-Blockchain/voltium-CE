@@ -1,0 +1,19 @@
+{
+    "name": "voltium",
+    "description": "The Voltium Wallet.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "src/background.js"
+      },
+      "permissions": ["storage"],
+      "action": {
+        "default_popup": "public/popup.html"
+      },
+    "icons": {
+        "16": "icon_16.png",
+        "48": "icon_32.png",
+        "64": "icon_48.png",
+        "128": "icon_128.png"
+    }
+}
