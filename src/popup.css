@@ -504,3 +504,64 @@ code {
     height: 20px;
     opacity: 0.5;
 }
+.swap-header {
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    top: 0%;
+    background: #A88539;
+    border-radius: 0px;
+    display: flex;
+    padding-top: 30px;
+}
+.header-back {
+    position: absolute;
+    left: 8.21%;
+    right: 87.69%;
+    top: 22.27%;
+    bottom: 25%;
+}
+.header-title {
+    position: absolute;
+    left: 37.95%;
+    right: 37.69%;
+    top: 22.14%;
+    bottom: 23.86%;
+    mix-blend-mode: normal;
+    color: #272727;
+    font-weight: 800;
+}
+.header-qrcode {
+    position: absolute;
+    left: 86.67%;
+    right: 8.21%;
+    top: 22.27%;
+    bottom: 25%;
+}
+#wallle-dex {
+    position: absolute;
+    left: 36.69%;
+    right: 56.39%;
+    top: 28.36%;
+    bottom: 37.31%;
+}
+.exchange-frame {
+    position: absolute;
+    width: 300px;
+    height: 329px;
+    left: 30px;
+    top: 119px;
+    
+    background: #272727;
+    border: 2px solid #C89C3D;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.exchange-first {
+    position: absolute;
+    display: flex;
+    top: 20px;
+}
+.exchange-first-input {
+    
+}
