@@ -548,7 +548,7 @@ code {
 .exchange-frame {
     position: absolute;
     width: 300px;
-    height: 329px;
+    height: 289px;
     left: 30px;
     top: 119px;
     
@@ -563,5 +563,331 @@ code {
     top: 20px;
 }
 .exchange-first-input {
+    position: absolute;
+    height: 53px;
+    left: 5px;
+    top: 17px;
+}
+.exchange-first-input  input {
+    width: 130px;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid rgba(200, 156, 61, 0.8);
+}
+.exchange-first-input input[type="number"] {
+    position: absolute;
+    height: 22px;
+    left: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #B8B4AB;
     
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.exchange-first-input .label {
+    position: absolute;
+    left: 7px;
+    right: 63.33%;
+    top: 30px;
+    width: 120px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    
+    text-transform: capitalize;
+    color: #FFFFFF;
+    
+}
+.exchange-first-input .label b {
+    color: #B8B4AB;
+}
+.exchange-first-token {
+    position: absolute;
+    width: 135px;
+    height: 53px;
+    left: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    display: flex;
+    padding-top: 10px;
+}
+.exchange-icon {
+    position: absolute;
+    left: 9.76%;
+    right: 70.25%;
+    top: 22.64%;
+    bottom: 24.94%;
+}
+.exchange-label {
+    position: absolute;
+    left: 37.34%;
+    right: 25.32%;
+    top: 18.87%;
+    bottom: 50.94%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+.exchange-label-n {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    left: 37.34%;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+.exchange-select {
+    position: absolute;
+    left: 82.28%;
+    right: 8.86%;
+    top: 41.51%;
+    bottom: 39.62%;
+}
+.exchange-swap {
+    position: absolute;
+    width: 20.76px;
+    height: 20px;
+    left: 234.38px;
+    top: 110.38px;
+}
+.exchange-second {
+    position: absolute;
+    display: flex;
+    top: 180px;
+}
+.exchange-second-input {
+    position: absolute;
+    height: 53px;
+    left: 15px;
+}
+.exchange-second-input input {
+    width: 120px;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid rgba(200, 156, 61, 0.8);
+}
+.exchange-second-input input[type="number"] {
+    position: absolute;
+    height: 22px;
+    left: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #B8B4AB;
+    
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.exchange-second-input .label {
+    position: absolute;
+    left: 5px;
+    right: 63.33%;
+    top: 28px;
+    width: 120px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.exchange-second-input .label b {
+    color: #B8B4AB;
+}
+.exchange-second-token {
+    position: absolute;
+    width: 138px;
+    height: 53px;
+    left: 148px;
+    
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+.exchange-second-token {
+    display: flex;
+}
+.exchange-second-icon {
+    position: absolute;
+    left: 13.29%;
+    right: 67.09%;
+    top: 22.64%;
+    bottom: 20.75%;    
+}
+.exchange-second-label {
+    position: absolute;
+    left: 40.31%;
+    right: 25.32%;
+    top: 18.87%;
+    bottom: 50.94%;    
+}
+.exchange-second-select {
+    position: absolute;
+    left: 82.28%;
+    right: 8.86%;
+    top: 41.51%;
+    bottom: 39.62%;
+}
+.exchange-rate {
+    position: absolute;
+    left: 30.64%;
+    right: 30.33%;
+    top: 89.67%;
+    bottom: 6.38%;
+    width: 159px;
+    color: #FFFFFF;
+}
+.exchange-swap-btn {
+    position: absolute;
+    width: 211px;
+    height: 40px;
+    top: 440px;
+    left: 75px;
+    background: #C89C3D;
+    border-radius: 20px;
+    display: flex;
+}
+.exchange-swap-btn-text {
+    position: absolute;
+    width: 44px;
+    height: 18px;
+    left: 15px;
+    top: 17.5%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    
+    color: #272727;
+}
+.exchange-swap-btn-icon {
+    position: absolute;
+    left: 80.33%;
+    right: 8.33%;
+    top: 17.5%;
+    bottom: 12.5%;
+}
+#settings {
+    position: absolute;
+    left: 60%;
+    right: 34.1%;
+    top: 26.34%;
+    bottom: 34.33%;
+}
+.setting-body {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+.setting-wallet {
+    position: absolute;
+    display: flex;
+    left: 45px;
+}
+.setting-wallet-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+.setting-wallet-text {
+    position: absolute;
+    width: 63px;
+    height: 19px;
+    left: 50px;
+    top: 9px;
+    color: rgba(255, 255, 255, 0.8);
+    mix-blend-mode: normal;
+}
+.setting-wallet-expand {
+    position: absolute;
+    left: 258.72px;
+    right: 8.91%;
+    top: 11px;
+    bottom: 82.7%;
+}
+.setting-security {
+    position: absolute;
+    display: flex;
+    top: 53px;
+    left: 42px;
+}
+.setting-prefrences {
+    position: absolute;
+    display: flex;
+    top: 108px;
+    left: 42px;
+}
+.setting-support {
+    position: absolute;
+    display: flex;
+    top: 160px;
+    left: 42px;
+}
+.setting-others {
+    position: absolute;
+    left: 47px;
+    right: 64.36%;
+    top: 240px;
+    bottom: 50.95%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    
+    color: #C89C3D;
+    
+    mix-blend-mode: normal;
+}
+.setting-telegram {
+    position: absolute;
+    display: flex;
+    top: 280px;
+    left: 42px;
+}
+.setting-social-text {
+    position: absolute;
+    width: 72px;
+    height: 19px;
+    left: 60px;
+    top: 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    
+    color: rgba(255, 255, 255, 0.8);
+    
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.setting-instagram {
+    position: absolute;
+    display: flex;
+    top: 340px;
+    left: 42px;
+}
+.setting-twitter {
+    position: absolute;
+    display: flex;
+    top: 400px;
+    left: 42px;
 }
